@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>AMITY - BOOKS</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <h1>Amity Books</h1>
+    </header>
+    <div id="container">
+    <div id = "searchDiv">
+        <input id="txtSearch" type="text" data-bind="value:searchInput" placeholder = "Search the library" />
+        <input id="btnSearch" type="button" data-bind="click:search" value="Search Books" />
+    </div>
+    <ul data-bind="foreach:items">
+        <li><a data-bind="attr: { href: link, title: description}, text: title"></a>
+            <br/><span data-bind="text:description" />
+        </li>
+    </ul>
+</div>
+<script src = "http://documentcloud.github.io/underscore/underscore-min.js"></script>
+<script src = "http://knockoutjs.com/downloads/knockout-2.2.1.js"></script>
+  </body>
+</html>

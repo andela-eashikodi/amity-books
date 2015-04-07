@@ -1,0 +1,56 @@
+#container {
+	background-color: #cdaa7d;
+	font-family: sans-serif;
+}
+
+#txtSearch {
+	margin: 0 auto;
+	font-size: 20px;
+	border: 2px solid black;
+	padding: 3px;
+}
+#btnSearch {
+	cursor: pointer;
+	margin-top: 2px;
+	margin-left: 0;
+	font-size: 20px;
+	background-color: #4682b4;
+	border-radius: 10px;
+	color: white;
+}
+#btnSearch:hover {
+	cursor: pointer;
+	margin-top: 2px;
+	margin-left: 0;
+	font-size: 20px;
+	background-color: #36648b;
+	border-radius: 10px;
+	color: white;
+	margin: 2px solid #36648b;
+}
+
+#searchDiv {
+	background-color: #cdaa7d;
+	width: 400px;
+	margin: 0 auto;
+}
+
+header{
+	background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bookshelf.jpg/800px-Bookshelf.jpg');
+	position: relative;
+	height: 120px;
+	width:auto;
+	z-index: 1;
+	margin: 0 auto;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+h1 {
+	background-color: black;
+	font-family: 'Londrina Shadow';
+	text-align: center;
+	font-size: 90px;
+	color: #aaaaaa;
+	margin: 0 450px 0 450px;
+	border-bottom: 11px solid black;
+}
